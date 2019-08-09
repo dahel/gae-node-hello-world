@@ -8,6 +8,6 @@ describe('App', () => {
     });
     test('should return Hello World!', async () => {
         const response = await request(app).get('/');
-        expect(response.text).toBe('Hello GCP!');
+        expect(response.text).toBe('Hello again GCP!');
     });
 })
